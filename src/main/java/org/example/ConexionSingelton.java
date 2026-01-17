@@ -14,7 +14,7 @@ public class ConexionSingelton {
 
         private static ConexionSingelton instance;
         private static MongoClient mongoClient;
-        private final String url= "mongodb+srv://jacoboperdon:10293847aA@cluster0.2v51nr8.mongodb.net/?appName=Cluster0";
+        private final String url= "mongodb+srv://jacoboperdon:123456aed@cluster0.2v51nr8.mongodb.net/?appName=Cluster0";
 
         private ConexionSingelton() throws SQLException {
             try {
